@@ -32,14 +32,13 @@ To ensure a seamless reviewer experience and immediate reproducibility, both ben
 The provided "Google Colab Notebook" contains an automated smart data pipeline that downloads these arrays directly, avoiding the extensive processing time associated with raw PhysioNet extraction.
 
 ## 🚀 How to Run (1-Click Execution)
-
+> **⚠️ Note for Reviewers:** 
+> When executing the first cell (Module 1: Setup), Google Colab may display transient warnings or version conflict messages related to its pre-installed backend packages. Please **ignore these warnings**. They do not affect the execution of our 1D-MobileViT architecture. The code is designed to run end-to-end flawlessly.
 The entire experimental pipeline—from data loading to training, external validation, and hardware profiling—is encapsulated in a single, well-documented Jupyter Notebook.
 
 1. Click the **"Open In Colab"** badge at the top of this repository.
-> **⚠️ Note for Reviewers:** 
-> When executing the first cell (Module 1: Setup), Google Colab may display transient warnings or version conflict messages related to its pre-installed backend packages. Please **ignore these warnings**. They do not affect the execution of our 1D-MobileViT architecture. The code is designed to run end-to-end flawlessly.
-3. Run the cells sequentially.
-4. The notebook will automatically:
+2. Run the cells sequentially.
+3. The notebook will automatically:
    - Download the pre-processed ECG datasets.
    - Initialize the compact 1D-MobileViT backbone.
    - Train using the dual-loss (Focal + SupCon) strategy.
