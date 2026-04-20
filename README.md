@@ -54,7 +54,7 @@ To validate the inference feasibility of this setup prior to full-scale clinical
 ## 📝 Citation
 If you find this code or methodology useful for your research, please cite our paper:
 ```bibtex
-@article{1DMobileViT_CBM,
+@article{1DMobileViT_CMPB,
   title={A Hardware-Aware 1D-MobileViT Framework for Efficient Edge-Based ECG Arrhythmia Detection},
   author={Anonymous for Review},
   journal={Computer Methods and Programs in Biomedicine},
